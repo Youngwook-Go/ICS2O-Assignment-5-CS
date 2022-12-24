@@ -28,7 +28,7 @@ class Program
             answer = answer + (4 / denominator);
             sign = (Math.Abs(denominator) / denominator) * -1;
             denominator = (Math.Abs(denominator) + 2) * sign;
-            
+
             count = count + 1;
             Console.WriteLine("The count is : " + count);
             Console.WriteLine("The denominator is : " + denominator);
